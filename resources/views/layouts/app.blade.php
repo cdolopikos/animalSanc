@@ -7,8 +7,8 @@
   </head>
   <body>
     @include('inc.navbar')
-    
-
+    @include('inc.signin')
+    @include('inc.register')
     @yield('content')
   </body>
 </html>
