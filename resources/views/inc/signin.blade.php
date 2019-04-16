@@ -1,4 +1,5 @@
-<body class="signin">
+@section('login')
+<body class="login">
   <form class="form-signin">
 <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 <label for="inputEmail" class="sr-only">Email address</label>
@@ -14,3 +15,4 @@
 <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
 </form>
 </body>
+@show

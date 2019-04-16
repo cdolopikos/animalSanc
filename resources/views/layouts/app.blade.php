@@ -13,16 +13,12 @@
       @endif
 
       <div class="row">
-        <div clas+"col-md-8 col-lg-8">
           @if(Request::is('/login'))
             @include('inc.signin')
           @endif
-        </div>
-        <div clas+"col-md-8 col-lg-8">
-          @if(Request::is('/register'))
-            @include('inc.register')
-          @endif
-        </div>
+
+
+        
       </div>
     </div>
 

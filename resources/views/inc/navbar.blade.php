@@ -1,3 +1,4 @@
+@section('navbar')
 <header>
  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
    <a class="navbar-brand" href="/">Aston Animal Sanctuary</a>
@@ -20,3 +21,4 @@
    </div>
  </nav>
 </header>
+@show
