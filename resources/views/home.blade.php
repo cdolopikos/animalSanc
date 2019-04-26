@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>users</h1>
+@component('components.who')
+@endcomponent
+
 @endsection
