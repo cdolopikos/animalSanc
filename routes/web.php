@@ -23,7 +23,11 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/user', function () {
+    return view('user');
+});
 
+Route::resource('/animals', 'AnimalController');
 
 Auth::routes();
 

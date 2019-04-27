@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8"/>
     <title>Animal Sanctuary</title>
+    <!-- Scripts -->
+   <script src="{{ asset('js/app.js') }}" defer></script>
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
   </head>
   <body>
