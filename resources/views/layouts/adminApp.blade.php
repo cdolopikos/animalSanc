@@ -6,7 +6,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
   </head>
   <body>
-    @include('inc.adminLogedInnavbar')
+    @include('inc.navbar')
     <div class="conatiner">
       <div class="align-center">
         @component('components.who')

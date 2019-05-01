@@ -7,7 +7,7 @@
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" >
   </head>
   <body>
-    @include('inc.logedInNavbar')
+    @include('inc.navbar')
     <div class="conatiner">
     </div id=table>
     <table class=" table table-striped table-dark text-center table-hover table-reflow ">

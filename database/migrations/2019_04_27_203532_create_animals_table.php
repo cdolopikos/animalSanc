@@ -16,8 +16,8 @@ class CreateAnimalsTable extends Migration
         Schema::create('animals', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->date('dob');
-            $table->enum('type', ['Dog', 'Cat', 'Parrot', 'Fish', 'Rabbit', 'Snake', 'Mouse', 'Turtle', 'Lizard'])->default(NULL);
+             $table->date('dob');
+             $table->enum('type', ['Dog', 'Cat', 'Parrot', 'Fish', 'Rabbit', 'Reptiles', 'Mouse', 'Turtle'])->default(NULL);
             $table->string('description');
             $table->enum('availability', ['Available', 'Unavailable'])->default('Available');
             $table->binary('picture');
